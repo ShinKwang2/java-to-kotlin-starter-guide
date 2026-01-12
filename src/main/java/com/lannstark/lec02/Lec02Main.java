@@ -6,6 +6,11 @@ public class Lec02Main {
 
   }
 
+  // NPA가 발생할 가능성이 있음
+  public boolean startsWithA(String str) {
+    return str.startsWith("A");
+  }
+
   public boolean startsWithA1(String str) {
     if (str == null) {
       throw new IllegalArgumentException("null이 들어왔습니다");
@@ -29,4 +34,10 @@ public class Lec02Main {
     return str.startsWith("A");
   }
 
+  public long calculate(Long number) {
+    if (number == null) {
+      return 0;
+    }
+    return number + 10;
+  }
 }

@@ -11,8 +11,8 @@ public class Person {
     this.name = name;
   }
 
-  //@Nullable
-  //@NotNull
+//  @Nullable
+//  @NotNull
   public String getName() {
     return name;
   }

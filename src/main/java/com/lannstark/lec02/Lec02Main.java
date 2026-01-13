@@ -3,11 +3,11 @@ package com.lannstark.lec02;
 public class Lec02Main {
 
   public static void main(String[] args) {
-
+    startsWithA(null);
   }
 
   // NPA가 발생할 가능성이 있음
-  public boolean startsWithA(String str) {
+  public static boolean startsWithA(String str) {
     return str.startsWith("A");
   }
 

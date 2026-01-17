@@ -1,0 +1,5 @@
+package com.shin.lec11
+
+fun isDirectoryPath(path: String): Boolean {
+    return path.endsWith("/")
+}
